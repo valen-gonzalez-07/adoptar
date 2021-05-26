@@ -369,6 +369,8 @@ a {
     display: none; }
   .navbar {
     width: 100%; }
+  .marginBottom {
+    margin-bottom: 5%; }
   .indexPrincipio {
     padding-top: 10%;
     padding-bottom: 7%; }
@@ -443,6 +445,8 @@ a {
     display: none; }
   .navbar {
     width: 100%; }
+  .marginBottom {
+    margin-bottom: 5%; }
   .indexPrincipio {
     padding-top: 10%;
     padding-bottom: 8%; }
