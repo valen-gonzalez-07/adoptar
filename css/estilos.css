@@ -1,0 +1,750 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins'; }
+
+main,
+.margin {
+  padding-right: 5%;
+  padding-left: 5%; }
+
+.no-margin {
+  padding-left: 0;
+  padding-right: 0; }
+
+h1,
+h2,
+h3 {
+  color: #4F4E4C; }
+
+p {
+  line-height: 1.6em;
+  color: #4C4D4F; }
+
+a {
+  text-decoration: none; }
+
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #4F4E4C; }
+
+.h3 {
+  font-size: 27px; }
+
+.h4 {
+  font-size: 24px; }
+
+.h5 {
+  font-size: 20px; }
+
+.h6 {
+  font-size: 19px; }
+
+.colorGris {
+  color: #4F4E4C; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.center {
+  text-align: center; }
+
+.overline {
+  text-decoration: overline; }
+
+.marginBottom {
+  margin-bottom: 2%; }
+
+.logo {
+  width: 13%; }
+
+.navbar {
+  padding-right: 5%;
+  padding-left: 5%; }
+
+.container-fluid {
+  padding: 0; }
+
+.fondoGradiente {
+  padding-bottom: 1%;
+  padding-top: 0.5%;
+  background-image: linear-gradient(150deg, #FDDADC, #F9F9F9);
+  background-size: 400% 300%;
+  animation: gradiente 3s ease infinite; }
+
+@keyframes gradiente {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+/* -- MODALES -- */
+.fondoModal {
+  background-color: rgba(249, 204, 206, 0.3); }
+
+.imagenModal {
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 3%; }
+
+/* -- MODALES -- */
+/* -- BOTONES -- */
+.buttom__rosa, .botonRosa {
+  background-color: #F9CCCE;
+  width: auto;
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 2%; }
+
+.buttom__gris, .botonGris {
+  background-color: #4F4E4C;
+  width: auto;
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 2%; }
+
+.botonRosa {
+  color: #4F4E4C; }
+
+.botonRosa:hover {
+  color: black; }
+
+.botonGris {
+  color: #F9CCCE; }
+
+.botonGris:hover {
+  color: white; }
+
+.botonDonar a {
+  color: #FF858B;
+  background-color: #4E4E4E;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  top: 90%;
+  right: 3%;
+  background-image: url(../media/index-img-patitas.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 10%;
+  box-shadow: 0px 0px 10px 0px #545454;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px; }
+
+.botonEnviar {
+  color: #4E4E4E;
+  background-color: #F9CCCE;
+  padding: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px; }
+
+.botonRefugios {
+  padding: 4%; }
+
+/* -- BOTONES -- */
+/* -- INDEX -- */
+.indexPrincipio {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row; }
+
+.indexPrincipio__texto {
+  margin: auto; }
+
+.indexPrincipio__foto {
+  margin: auto; }
+
+.indexPrincipio__foto img {
+  width: 100%; }
+
+.cardsPrincipales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  margin-top: 5%; }
+
+.cardPrincipal__imagen {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px #F2F2F2; }
+
+.indexSecciones {
+  font-weight: bold; }
+
+.cardSecciones {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  justify-content: center;
+  align-content: space-between;
+  text-align: center;
+  box-shadow: 0px 0px 9px 0px #F2F2F2;
+  border-radius: 20px; }
+
+.cardSecciones > * {
+  width: 100%; }
+
+.cardSecciones__titulo {
+  font-weight: 700; }
+
+.cardSecciones__imagen {
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px 0px #F2F2F2;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.fraseTransitar {
+  padding: 5%; }
+
+/* -- INDEX -- */
+/* -- REFUGIOS -- */
+.cardRefugios {
+  border-radius: 20px;
+  background-color: #F9F9F9;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  box-shadow: 0px 0px 15px 0px #F2F2F2;
+  padding: 5%; }
+
+.cardRefugios > * {
+  width: 100%; }
+
+.imagen-refugios-principal {
+  grid-area: imagen-refugios-principal;
+  margin: auto; }
+
+.refugio1 {
+  grid-area: refugio1; }
+
+.refugio2 {
+  grid-area: refugio2; }
+
+.refugio3 {
+  grid-area: refugio3; }
+
+.refugio4 {
+  grid-area: refugio4; }
+
+.refugio5 {
+  grid-area: refugio5; }
+
+.refugio6 {
+  grid-area: refugio6; }
+
+.grilla-refugios {
+  display: grid;
+  width: 100%; }
+
+.textoRefugios {
+  margin-top: 3%;
+  padding-top: 2%; }
+
+/* -- REFUGIOS -- */
+/* -- ADOPTAR -- */
+.cardsAdoptar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.cardsAdoptar > * {
+  width: 100%; }
+
+.cardAdopta {
+  margin: 1%; }
+
+/* -- ADOPTAR -- */
+/* -- SOBRE NOSOTROS -- */
+.textoNosotros {
+  border-bottom: 1px solid #4F4E4C;
+  margin-bottom: 4%;
+  margin-top: 2%;
+  padding-bottom: 1%; }
+
+.listaNosotros {
+  list-style: none;
+  border-bottom: 1px solid #4F4E4C; }
+
+.listaNosotros__items {
+  color: #4C4D4F;
+  background-image: url(../media/nosotros-img-patitas.png);
+  background-repeat: no-repeat;
+  margin-bottom: 2%;
+  margin-top: 2%; }
+
+/* -- SOBRE NOSOTROS -- */
+/* -- CONTACTANOS -- */
+.seccionContactanos {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%; }
+
+.contactanos {
+  display: flex;
+  flex-direction: row;
+  background-color: #F9F9F9;
+  box-shadow: 0px 0px 10px 0px #DDDDDD;
+  border-radius: 30px;
+  margin-top: 4%;
+  margin-bottom: 3%; }
+
+.formularioContactanos {
+  width: 100%; }
+
+.formularioContactanos__titulo {
+  margin-top: 2%;
+  margin-bottom: 4%; }
+
+/* -- CONTACTANOS -- */
+/* -- FOOTER -- */
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  margin-top: 5%; }
+
+.footerNavegacion {
+  list-style: none;
+  list-style-position: inside;
+  padding: 0;
+  margin-bottom: 0; }
+
+.footerNavegacion__link {
+  text-decoration: none;
+  color: #4E4E4E; }
+
+.footerNavegacion__link:hover {
+  color: #FF858B; }
+
+.footerNewsletter {
+  margin: auto;
+  margin-top: 0; }
+
+/* -- FOOTER -- */
+/* -- MEDIA -- */
+@media (max-width: 320px) {
+  .logo {
+    display: none; }
+  .navbar {
+    width: 100%; }
+  .indexPrincipio {
+    padding-top: 10%;
+    padding-bottom: 7%; }
+  .cardsPrincipales {
+    flex-wrap: wrap; }
+  .cardPrincipal {
+    width: 90%;
+    margin-top: 4%; }
+  .indexSecciones {
+    margin-top: 15%; }
+  .cardSecciones {
+    margin: auto;
+    margin-top: 5%; }
+  .cardSecciones__titulo {
+    margin-top: 3%; }
+  .cardSecciones__imagen {
+    width: 60%; }
+  .cardSecciones__texto {
+    height: 140px; }
+  .imagen-refugios-principal {
+    display: none; }
+  .cardRefugios {
+    margin: 4%; }
+  .cardRefugios__titulo {
+    margin-top: 4%;
+    height: 55px; }
+  .cardRefugios__imagen {
+    width: 60%;
+    margin-top: 8%;
+    margin-bottom: 6%; }
+  .cardRefugios__texto {
+    height: 50px; }
+  .grilla-refugios {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "refugio1 refugio2" "refugio3 refugio4" "refugio5 refugio6" "refugio7 refugio8"; }
+  .sliderNosotros {
+    margin-top: 7%;
+    margin-bottom: 7%; }
+  .listaNosotros {
+    padding-bottom: 5%;
+    padding-top: 5%; }
+  .listaNosotros__items {
+    background-size: 7%;
+    padding-left: 9%; }
+  .contactanos {
+    width: 100%;
+    padding: 5%;
+    margin: auto; }
+  .formularioContactanos__opciones {
+    display: flex;
+    flex-direction: column; }
+  .formularioContactanos__opcionesCheckbox {
+    width: 100%; }
+  .formularioContactanos__opcionesRadio {
+    width: 100%; }
+  .imagenContactanos {
+    display: none; }
+  footer .h5 {
+    margin-top: 15px; }
+  .footerNewsletter {
+    margin-left: 0; }
+  .footerRedes__imagen {
+    width: 17%;
+    margin-right: 3%;
+    margin-bottom: 10px; } }
+
+@media (min-width: 321px) and (max-width: 576px) {
+  .logo {
+    display: none; }
+  .navbar {
+    width: 100%; }
+  .indexPrincipio {
+    padding-top: 10%;
+    padding-bottom: 8%; }
+  .cardsPrincipales {
+    flex-wrap: wrap; }
+  .cardPrincipal {
+    width: 90%;
+    margin-top: 4%; }
+  .indexSecciones {
+    margin-top: 10%; }
+  .cardSecciones {
+    width: 90%;
+    margin: auto;
+    margin-top: 4%; }
+  .cardSecciones__titulo {
+    margin-top: 3%; }
+  .cardSecciones__imagen {
+    width: 50%; }
+  .cardSecciones__texto {
+    height: 100px;
+    margin-top: 1%;
+    margin-bottom: 1%; }
+  .imagen-refugios-principal {
+    display: none; }
+  .cardRefugios {
+    margin: 5%; }
+  .cardRefugios__titulo {
+    margin-top: 4%;
+    height: 50px; }
+  .cardRefugios__imagen {
+    width: 60%;
+    margin-top: 8%;
+    margin-bottom: 6%; }
+  .cardRefugios__texto {
+    height: 50px; }
+  .grilla-refugios {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "refugio1 refugio2" "refugio3 refugio4" "refugio5 refugio6" "refugio7 refugio8"; }
+  .sliderNosotros {
+    margin-top: 7%;
+    margin-bottom: 7%; }
+  .listaNosotros {
+    padding-bottom: 1%; }
+  .listaNosotros__items {
+    background-size: 5%;
+    padding-left: 7%; }
+  .contactanos {
+    width: 100%;
+    padding: 5%;
+    margin: auto; }
+  .formularioContactanos__opciones {
+    display: flex;
+    flex-direction: column; }
+  .formularioContactanos__opcionesCheckbox {
+    width: 100%; }
+  .formularioContactanos__opcionesRadio {
+    width: 100%; }
+  .imagenContactanos {
+    display: none; }
+  footer .h5 {
+    margin-top: 15px; }
+  .footerNewsletter {
+    margin-left: 0; }
+  .footerRedes__imagen {
+    width: 17%;
+    margin-right: 3%;
+    margin-bottom: 10px; } }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .logo {
+    display: none; }
+  .navbar {
+    width: 100%; }
+  .indexPrincipio {
+    padding-top: 7%;
+    padding-bottom: 7%; }
+  .cardsPrincipales {
+    flex-wrap: wrap; }
+  .cardPrincipal {
+    width: 90%;
+    margin-top: 4%; }
+  .indexSecciones {
+    margin-top: 10%; }
+  .cardSecciones {
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%; }
+  .cardSecciones__titulo {
+    margin-top: 1%; }
+  .cardSecciones__imagen {
+    width: 40%; }
+  .cardSecciones__texto {
+    height: 65px; }
+  .imagen-refugios-principal {
+    display: none; }
+  .cardRefugios {
+    margin: 7%;
+    width: 90%; }
+  .cardRefugios__titulo {
+    margin-top: 4%;
+    height: 27px; }
+  .cardRefugios__imagen {
+    width: 40%;
+    margin-top: 6%;
+    margin-bottom: 6%; }
+  .cardRefugios__texto {
+    height: 30px; }
+  .grilla-refugios {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "refugio1 refugio2" "refugio3 refugio4" "refugio5 refugio6" "refugio7 refugio8"; }
+  .sliderNosotros {
+    margin-top: 5%;
+    margin-bottom: 7%; }
+  .listaNosotros {
+    padding-bottom: 2%; }
+  .listaNosotros__items {
+    background-size: 3%;
+    padding-left: 4%; }
+  .contactanos {
+    width: 70%;
+    padding: 3%;
+    margin: auto; }
+  .formularioContactanos__opciones {
+    display: flex;
+    flex-direction: row; }
+  .formularioContactanos__opcionesCheckbox {
+    width: 50%; }
+  .formularioContactanos__opcionesRadio {
+    width: 50%; }
+  .imagenContactanos {
+    display: none; }
+  footer .h5 {
+    margin-top: 20px; }
+  .footerNewsletter {
+    margin-right: 30%;
+    margin-left: 0; }
+  .footerRedes__imagen {
+    width: 20%;
+    margin-right: 3%;
+    margin-bottom: 10px; } }
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .logo {
+    display: none; }
+  .indexPrincipio {
+    padding-top: 5%;
+    padding-bottom: 3%; }
+  .cardsPrincipales {
+    flex-wrap: nowrap; }
+  .cardPrincipal {
+    width: 35%;
+    margin-right: 2%;
+    margin-left: 2%; }
+  .indexSecciones {
+    margin-top: 8%; }
+  .indexCardsSecciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 4%; }
+  .cardSecciones {
+    width: 35%;
+    margin-right: 2%;
+    margin-left: 2%; }
+  .cardSecciones__titulo {
+    margin-top: 2%;
+    margin-bottom: 2%; }
+  .cardSecciones__imagen {
+    width: 75%; }
+  .cardSecciones__texto {
+    height: 175px; }
+  .imagen-refugios-principal img {
+    width: 100%; }
+  .cardRefugios {
+    margin: 4%;
+    width: 90%; }
+  .cardRefugios__titulo {
+    margin-top: 4%;
+    height: 65px; }
+  .cardRefugios__imagen {
+    width: 60%;
+    margin-top: 6%;
+    margin-bottom: 6%; }
+  .cardRefugios__texto {
+    height: 50px; }
+  .grilla-refugios {
+    padding-top: 2%;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "imagen-refugios-principal refugio1 refugio2 refugio3" "imagen-refugios-principal refugio4 refugio5 refugio6" "imagen-refugios-principal refugio7 refugio8 refugio9"; }
+  .tituloNosotros {
+    margin-top: 2%; }
+  .sliderNosotros {
+    margin-top: 3%;
+    margin-bottom: 5%; }
+  .listaNosotros {
+    padding-bottom: 2%; }
+  .listaNosotros__items {
+    background-size: 2.5%;
+    padding-left: 3.2%; }
+  .contactanos {
+    width: 70%;
+    padding: 3%;
+    margin: auto; }
+  .formularioContactanos__opciones {
+    display: flex;
+    flex-direction: row; }
+  .formularioContactanos__opcionesCheckbox {
+    width: 50%; }
+  .formularioContactanos__opcionesRadio {
+    width: 50%; }
+  .imagenContactanos {
+    display: none; }
+  footer .h5 {
+    margin-top: 15px;
+    margin-bottom: 8px; }
+  .footerRedes__imagen {
+    width: 23%;
+    margin-right: 3%; } }
+
+@media (min-width: 993px) {
+  .buttomDonar a:hover {
+    font-weight: 800;
+    transform: scale(1.3); }
+  .indexPrincipio__foto img {
+    width: 70%;
+    margin-left: 35%; }
+  .cardsPrincipales {
+    flex-wrap: nowrap; }
+  .cardPrincipal {
+    width: 35%;
+    margin-right: 2%;
+    margin-left: 2%;
+    transition: transform 200ms ease-in-out; }
+  .cardPrincipal:hover {
+    transform: scale(1.2); }
+  .indexSecciones {
+    margin-top: 8%; }
+  .indexCardsSecciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 4%; }
+  .cardSecciones {
+    width: 35%;
+    margin-right: 2%;
+    margin-left: 2%;
+    transition: transform 200ms ease-in-out; }
+  .cardSecciones__titulo {
+    margin-top: 2%;
+    margin-bottom: 2%; }
+  .cardSecciones__imagen {
+    width: 50%; }
+  .cardSecciones__texto {
+    height: 135px;
+    padding-left: 2%;
+    padding-right: 2%; }
+  .cardSecciones:hover {
+    transform: scale(1.1); }
+  .imagen-refugios-principal img {
+    width: 85%; }
+  .cardRefugios {
+    margin: 10%;
+    transition: transform 200ms ease-in-out; }
+  .cardRefugios:hover {
+    transform: scale(1.1); }
+  .cardRefugios__titulo {
+    margin-top: 4%;
+    margin-bottom: 0;
+    height: 71px; }
+  .cardRefugios__imagen {
+    width: 60%;
+    margin-bottom: 5%; }
+  .cardRefugios__texto {
+    height: 45px; }
+  .grilla-refugios {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "imagen-refugios-principal refugio1 refugio2 refugio3" "imagen-refugios-principal refugio4 refugio5 refugio6" "imagen-refugios-principal refugio7 refugio8 refugio9"; }
+  .tituloNosotros {
+    margin-top: 2%;
+    margin-bottom: 1%; }
+  .sliderNosotros {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    width: 70%;
+    margin: auto; }
+  .listaNosotros {
+    padding-bottom: 2%; }
+  .listaNosotros__items {
+    background-size: 1.8%;
+    padding-left: 2.3%; }
+  .contactanos {
+    width: 50%;
+    padding: 3%;
+    margin-left: 4%;
+    margin-right: 4%; }
+  .formularioContactanos__opciones {
+    display: flex;
+    flex-direction: row; }
+  .formularioContactanos__opcionesCheckbox {
+    width: 50%; }
+  .formularioContactanos__opcionesRadio {
+    width: 50%; }
+  .imagenContactanos {
+    width: 50%;
+    margin: auto;
+    margin-left: 10%; }
+  .imagenContactanos img {
+    width: 100%; }
+  footer .h5 {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .footerRedes__imagen {
+    width: 20%;
+    margin-right: 3%; } }
+
+/* -- MEDIA -- */

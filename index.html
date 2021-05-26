@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+
+		<meta charset="UTF-8" />
+
+		<title>Adoptar</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<meta name="keywords" content="animales, perro, gato, adopcion, adoptar, transito, transitar, veterinario, refugio, refugios" />
+
+		<meta name="description" content="Encontrá mascotas en adopción. Mirá cuántas necesitan una familia." />
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;900&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="css/estilos.css" />
+
+		
+	</head>
+
+	<body class="fondoGradiente">
+		<header>
+
+				<nav class="navbar navbar-expand-lg navbar-light navbarIndex">
+ 
+ 					<div class="container-fluid">
+					    <div>
+						    <a class="navbar-brand" href="index.html">
+	      						<img src="media/index-img-logo-adoptar.png" alt="Logo" title="Logo" class="logo" />
+	    					</a>
+	    				</div>   
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon"></span>
+						</button>
+
+					    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					        <li class="nav-item">
+					          <a class="nav-link active" href="index.html">Inicio</a>
+					        </li>					        
+					        <li class="nav-item">
+					          <a class="nav-link" href="pages/refugios.html">Refugios</a>
+					        </li>
+					        <li class="nav-item dropdown">
+					          <a class="nav-link dropdown-toggle" href="adopta.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					            Adoptá
+					          </a>
+						          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						            <li><a class="dropdown-item" href="pages/adopta-perros.html">Perros</a></li>
+						            <li><a class="dropdown-item" href="pages/adopta-gatos.html">Gatos</a></li>
+						          </ul>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link" href="pages/sobre-nosotros.html" tabindex="-1" aria-disabled="true">Sobre nosotros</a>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link" href="pages/contactanos.html" tabindex="-1" aria-disabled="true">Contactanos</a>
+					        </li>
+					      </ul>
+					    </div>
+  					</div>
+  					
+				</nav>
+
+		</header>
+
+		<main class="no-margin">
+
+			<!-- Modales -->
+			<div class="modal fade fondoModal" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-scrollable">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <p class="modal-title h5" id="exampleModalLabel1"><strong>Pancha</strong></p>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			        <p>¿Estás list@ para llorar? </p>
+			        <p>Pancha es una Golden Retriever que encontraron abandonada en la calle en pleno invierno del 2020. Solita, con frío y tan, tan lastimada que si no la salvaban, <strong>se moría</strong>.</p>
+			        <p>Su nueva familia la trasladó en plena cuarentena desde la ciudad de Moreno hasta la Capital de Buenos Aires.</p>
+			        <p><em>"No entendía nada. Ni qué era el lugar donde estaba, ni quiénes éramos nosotros. No quiero pensar ni lo que pensó que le podíamos llegar a hacer"</em> nos cuenta la mamá de Pancha.</p>
+			        <p>A Pancha le contagiaron un tumor otros perros que, en celo, le abrieron la herida del tumor. Sobre esa lastimadura, llegaron los bichos. Su veterinario cuenta que le sacó 60 gusanos de su lastimadura. </p>
+			        <p><strong>Pancha nunca lloró.</strong></p>
+			        <p>Su familia cuenta que llegó muy asustada y triste. Se le veía en sus ojitos:</p>
+			        <img class="imagenModal" src="media/secciones-pancha.png" alt="Pancha, perra golden rescatada" title="Pancha" />
+			        <p>La historia no termina ahí. Tuvo que hacerse 3 operaciones en total:</p>
+			        <ul class="colorGris">
+			        	<li>La primera, porque tenía una infección de útero tan grave que corría riesgo de vida.</li>
+			        	<li>La segunda, porque le tomaron una muestra de un tumor que le salió después de la primera operación.</li>
+			        	<li>La tercera, porque sufría incontinencia y perdía pis.</li>
+			        </ul>
+			        <p>Capaz te preguntás: ¿Cómo lo logró? Bueno... con muuuchos tratamientos, medicamentos y amor Pancha salió adelante. <br />
+			        <strong>Ella nunca se dio por vencida.</strong> Y su familia tampoco. </p>
+			    	<p><strong>¡Mirala ahora!</strong></p>
+			    	<img class="imagenModal" src="media/secciones-pancha-2.png" alt="Pancha, perra golden rescatada" title="Pancha" />
+			    	<p>Y como Pancha, ¡hay muchos! <br />
+			    	¿Te animás a ayudarlos como hizo la familia de ella?</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn botonGris" data-bs-dismiss="modal">Cerrar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="modal fade fondoModal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-scrollable">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <p class="modal-title h5" id="exampleModalLabel2"><b>Cano</b></p>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			        <p>Un viernes lluvioso y frío, Lucía escuchó el llanto de un perrito en un lugar muy parecido a un basural.</p>
+			        <p>Cuando se acercó, se encontró con Cano: estaba atrapado entre unas maderas y no podía salir. Lucía no lo dudó ni un segundo. Lo ayudó a salir y lo llevó al veterinario. </p>
+			        <p>Buscaron a su familia con una campaña en redes sociales, pensando que Cano se había escapado y alguien lo estaba buscando. <b>Pero nadie preguntó por él</b>.</p>
+			        <img class="imagenModal" src="media/secciones-cano-1.png" alt="Cano recién llegado" title="Cano recién llegado" />
+			    	<p>Lucía decidió adoptarlo. <i>"Al principio quería irse. Se ve que tenía miedo y no entendía mucho qué pasaba. Una vez, tuvimos que salir a correrlo porque si no vaya a saber dónde terminaba"</i>.</p>
+			    	<p>Pero su nueva familia tuvo paciencia, comprensión y amor. Y hoy Cano <b>está más contento que nunca</b>. Juega con cualquier cosa y cuando llega su familia a casa no para de saltar de la felicidad.</p>
+			    	<img class="imagenModal" src="media/secciones-cano-2.png" alt="Cano ahora" title="Cano ahora" />
+			    	<p>Y como Cano, ¡hay muchos! <br />
+			    	¿Te animás a ayudarlos como hizo la familia de él?</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn botonGris" data-bs-dismiss="modal">Cerrar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="modal fade fondoModal" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-scrollable">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <p class="modal-title h5" id="exampleModalLabel3"><b>Plini</b></p>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			        <p>Plini es un gatito bebé bastante travieso.</p>
+			        <p>Le encanta correr y, cuando arranca, no para. Sin embargo, hubo una vez en la que estuvo cerca de <b>no poder hacerlo nunca más</b>.</p>
+			        <p><i>"Íbamos caminando con mi novio y vimos que casi cruza la calle solo. Venían un montón de autos rapidísimo, porque era una avenida y el semáforo estaba en verde. Lo agarramos de milagro"</i>, nos cuenta Rodrigo, el papá de Plini.</p>
+			        <img class="imagenModal" src="media/secciones-plini.png" alt="Plini, gatito adoptado" title="Plini, gatito" />
+			    	<p>Rodrigo también nos contó que Plini no tenía familia, estaba solito, mojado y sucio. Por eso, ese mismo día lo llevaron al veterinario, y hoy Plini <b>sí tiene familia</b>.</p>
+			    	<img class="imagenModal" src="media/secciones-plini-2.png" alt="Plini, gatito adoptado" title="Plini, gatito" />
+			    	<p>Y como Plini, ¡hay muchos! <br />
+			    	¿Te animás a ayudarlos como hizo la familia de él?</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn botonGris" data-bs-dismiss="modal">Cerrar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="modal fade fondoModal" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-scrollable">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <p class="modal-title h5" id="exampleModalLabel4"><strong>Tu mascota apoya su cabeza contra la pared</strong></p>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			        <p>El acto de presionar la cabeza contra la pared u otra superficie se denomina clínicamente <strong>“presión de cabeza”</strong>.</p>
+			        <p>Es algo que tu mascota realiza de forma compulsiva y continuada en el tiempo. Un acto que no debe ser confundido con la llamada “embestida de cabeza” que es cuando tu perro o tu gato frota su cabeza contra vos u otro animal y que es una forma de expresar su cariño.</p>
+					<p>Cuando una mascota frota fuertemente la cabeza contra la pared puede indicar que sufre una <strong>enfermedad de tipo neurológico o algún daño en el sistema nervioso</strong>. Al igual que les sucede a las personas cuando sufren fuertes migrañas, tienden a presionar las sienes para menguar el dolor.</p>
+					<p>Entre las posibles patologías de perros o gatos que “presionan la cabeza” están: </p>
+						<ul class="colorGris">
+							<li>Desviación del hígado</li>
+							<li>Tumores en el cerebro o cráneo</li>
+							<li>Trastorno metabólico</li>
+							<li>Envenenamiento tóxico</li>
+							<li>Golpe en la cabeza</li>
+							<li>Infección del sistema nervioso</li>
+							<li>Accidente Cerebro-vascular (ACV)</li>
+							<li>Encefalitis (inflamación del cerebro y la médula espinal)</li>
+							<li>Encefalopatía Hepática</li>
+						</ul>		
+					<p>Si detectas esta señal, <strong>acudí a un veterinario cuanto antes</strong> para que haga un diagnóstico correcto.</p>
+					<img class="imagenModal" src="media/secciones-perro-pared-1.png" alt="Perro apoyando su cabeza contra la pared" title="Perro apoyando su cabeza contra la pared" />
+					<img class="imagenModal" src="media/secciones-perro-pared-1.png" alt="Perro apoyando su cabeza contra la pared" title="Perro apoyando su cabeza contra la pared" />
+					<p class="h5 marginBottom"><b>Otros síntomas asociados a este comportamiento</b></p>
+					<p>Si además de frotar la cabeza contra la pared, la mascota presenta alguno de estos síntomas, <strong>no dudes ni un minuto en acudir a una clínica veterinaria</strong>, el tiempo es oro.</p>
+					<ul class="colorGris">
+						<li>Caminar en círculos o dar vueltas sobre sí mismo</li>
+						<li>Convulsiones</li>
+						<li>Cadencia constante</li>
+						<li>Problemas visuales o mirada perdida</li>
+						<li>Quedarse inmóvil, sea mirando a la pared o en un rincón</li>
+						<li>Cambios de humor sin justificación</li>
+					</ul>
+					<p>Recordá que <strong>la “presión de cabeza” no es más que la forma que encuentra tu perro o gato de aliviar su dolor.</strong> Acudí al veterinario.</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn botonGris" data-bs-dismiss="modal">Cerrar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="modal fade fondoModal" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-scrollable">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <p class="modal-title h5" id="exampleModalLabel5"><strong>¿Por qué mi perro tiembla?</strong></p>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			        <p><strong>Cuando tu perro presenta temblores, se trata de un signo que no es específico de una edad determinada ni de una raza determinada. Entre las causas más comunes de los temblores en perros se encuentran situaciones de ansiedad o agitación, temores o descenso de la temperatura corporal.</strong></p>
+			        <p>Tu perro tiembla como <strong>respuesta a un estímulo externo</strong> pero también puede que lo haga como síntoma de una enfermedad, por sensación de dolor o por una intoxicación. Es importante poder distinguir algunas de las causas de los temblores para determinar la gravedad de la situación y poder actuar en consecuencia. Por eso, en este artículo te ayudamos a descifrar por qué puede estar tu perro padeciéndolos.</p>
+			        <img class="imagenModal" src="media/secciones-perro-temblando-2.png" alt="Temblores en perros. ¿Qué los produce?" title="Temblores en perros. ¿Qué los produce?" />
+					<p class="h5 marginBottom"><b>¿A qué nos referimos con los temblores?</b></p> 
+					<p>Un temblor se caracteriza por ser un <strong>movimiento con una cadencia que se produce de manera involuntaria</strong>. Estos temblores afectan a todo el cuerpo o a tan solo una parte, por ejemplo la cabeza.</p>
+					<p>Las causas de los temblores en perros son de diferente índole y asimismo el tipo de temblor es diverso:</p>
+					<ul class="colorGris">
+						<li>Temblor intencional provocado por un temblor, en su inicio voluntario</li>
+						<li>Temblor por postura en cabeza o extremidades que puede provenir de problemas de metabolismo</li>
+						<li>Fasciculación muscular no rítmica de enfermedad motora</li>
+						<li>Movimientos mioclónicos súbitos y localizados en un músculo</li>
+					</ul>
+					<img class="imagenModal" src="media/secciones-perro-temblando-1.png" alt="Perro asustado. ¿Qué produce los temblores en perros?" title="Perro asustado. ¿Qué produce los temblores en perros?" />
+					<p class="h5 marginBottom"><b>Causas de los temblores</b></p>
+					<p class="h6"><b>1. Hipotermia</b></p>
+					<p>Un ambiente <strong>excesivamente frío durante un tiempo prolongado</strong> puede causar que la temperatura de tu perro (normalmente a unos 38ºC) baje drásticamente, comprometiendo sus funciones vitales. El efecto adverso de una medicación también puede ser la causante de que la temperatura de tu perro disminuya. <br />
+					En cuanto a los síntomas, si tu perro sufre hipotermia estará <strong>apático, somnoliento y presentará temblores</strong>. Como medida inmediata se le puede proporcionar algo que le caliente, sin el peligro de quemarse, y agua azucarada o suero.</p>
+					<p class="h6"><b>2. Fiebre e hipertermia</b></p>
+					<p>Con una temperatura en su cuerpo de más de 39ºC, hablamos de <strong>fiebre</strong> y en esta circunstancia de hipertermia se pueden producir temblores en perros. <br />
+					<strong>La fiebre nos alerta de que existe una causa subyacente de tipo vírico o de alguna enfermedad que pueda ocurrir</strong>. Andá al veterinario para que evalúe a tu perro y puedan hacer que le baje la fiebre.</p>
+					<p class="h6"><b>3. Hipoglucemia</b></p>
+					<p>La hipoglucemia es otra de las causas de los temblores en perros. No obstante, si tu perro tiene, de repente, una <strong>bajada del nivel de azúcar en sangre</strong> estamos ante un síntoma de que algo no está funcionando bien a nivel de absorción de nutrientes <br />
+					Si tu perro tiene hipoglucemia tendrá que ser tratado por el veterinario, quien pautará una dieta específica y repartirá las tomas de alimento en horas concretas.</p>
+					<p class="h6"><b>4. Temblores en la fase REM del sueño</b></p>
+					<p>Un sueño muy profundo es causa de temblores en perros, sobre todo en sus patitas. Es algo <strong>común y normal</strong> que no debe preocuparnos.</p>
+					<p class="h6"><b>5. Exceso de ejercicio</b></p>
+					<p>Los temblores perro derivados por haber hecho una <strong>excesiva cantidad de movimiento físico</strong> tampoco son síntoma de enfermedad. Ahora bien, si tu perro se cansa en exceso después de sus salidas a correr, valora adaptar el nivel de esfuerzo a sus características y estado físico.</p>
+					<p class="h6"><b>6. Los temblores en perros por dolor</b></p>
+					<p>En cuadros de <strong>artrosis</strong> y <strong>problemas articulares</strong>, tu perro presentará un dolor más o menos agudo y frecuente según el progreso de esta dolencia. Los temblores en perros por dolor también pueden tener <strong>causas digestivas</strong>, por lo que es importante poder determinar la raíz del problema y que el veterinario pueda decidir si le puede administrar algún analgésico.</p>
+					<p class="h6"><b>7. Traumas y fobias</b></p>
+					<p>Los temblores en tu perro pueden ser un reflejo del <strong>estrés</strong> ante una situación que no sabe cómo gestionar. <strong>Miedos y fobias</strong> pueden estar actuando como causa psicológica en este caso.</p>
+					<p class="h5 center"><b>¿Cuándo estamos ante una enfermedad patológica?</b></p>
+					<p>Si observas que tu perro tiembla y que estos episodios se repiten y son recursivos impidiéndole llevar su vida con normalidad, puede tratarse de una enfermedad. Entre estas dolencias encontramos <strong>infecciones</strong> como el <strong>moquillo de origen vírico</strong>, la cual a parte de causar temblores o tics también provoca vómitos y otros síntomas. <br />
+					Un <strong>cerebelo inflamado</strong> puede dar temblores en perros como en el caso del <strong>síndrome de Shaker</strong>. En general, las <strong>enfermedades degenerativas</strong> también son causantes de temblores en perros. Como siempre, ante la más mínima duda, acudí al veterinario para que puedan examinar a tu perro. <br/>
+					Los temblores en perros tienen <strong>orígenes muy diferentes</strong>. Puede ser síntoma tanto de una hipotermia como de una enfermedad vírica. Es por tanto recomendable que tengas al día las vacunas y desparasitaciones y que acudas al menos una vez al año al veterinario, o de manera urgente si se diera el caso.</p>
+					<img class="imagenModal" src="media/secciones-perro-temblando-3.png" alt="Perro recostado. ¿Qué produce los temblores en perros?" title="Perro recostado. ¿Qué produce los temblores en perros?" />
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn botonGris" data-bs-dismiss="modal">Cerrar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="modal fade fondoModal" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-scrollable">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <p class="modal-title h5" id="exampleModalLabel6"><b>¿Por qué mi gato maúlla mucho?</b></p>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			        <p class="h6 marginBottom"><b>Estas son las principales razones por las cuales tu gato maúlla mucho</b></p>
+			        <img class="imagenModal" src="media/secciones-gato-1.png" alt="Gato maullando. ¿Por qué lo hace?" title="Gato maullando. ¿Por qué lo hace?" />
+			        <p class="h6"><b>1. Para saludarte</b></p>
+			        <p>Si estás acostumbrado a un breve estallido de maullidos justo cuando llegas a casa, ¡felicidades! Tu gato realmente está feliz de verte. Estos maullidos son la forma en que tu gato dice <b>"hola"</b> y <b>"dónde estuviste todo este tiempo"</b>. Acaricialo y hablale para corresponder a este saludo.</p>
+			        <p class="h6"><b>2. Para llamar tu atención</b></p>
+			        <p>Maúllan para comunicarte que quieren jugar, caricias o para disfrutar de alguna golosina. Si tu gato te roza mientras maúlla, es probable que te necesite para pasar un buen rato y, si sigue aún después de jugar, probablemente quiera alguna golosina.</p>
+			        <p class="h6"><b>3. Para conseguir comida</b></p>
+			        <p>Si tu gato no deja de maullar en ciertos momentos, siempre es una buena idea revisar su plato de comida. Si está vacío... ¡ya sabés por qué está maullando!<br />
+			        Sin embargo, <b>no llenes el tazón de inmediato</b>. Un buen truco es esperar hasta que tu gato deje de maullar antes de sacar la comida. De lo contrario, tu gato aprenderá que puede maullar y alimentarse, por lo que lo hará más.</p>
+			        <p class="h6"><b>4. Para decirte que no se siente bien</b></p>
+			        <p>Si tu gato maúlla por la noche, podría estar tratando de decirte que algo anda mal. De hecho, muchas enfermedades, como las <b>renales</b>, <b>del tracto urinario</b> o <b>artritis</b>, pueden provocar que maúlle en busca de ayuda. <br />
+			        Si notas algo inusual sobre los sonidos que hace consultá al veterinario para descartar una posible enfermedad como sucede con los gatos mayores. Éstos pueden presentar el <b>síndrome de disfunción cognitiva</b>. Algunos de los síntomas incluyen confusión y maullidos por la noche.</p>
+			        <p class="h6"><b>5. Para indicar estrés</b></p>
+			        <p>Si notás que tu gato maúlla más sobre de lo habitual, quizás se deba a estrés o cambios en su entorno. <br />
+			        Un cambio de casa, una nueva mascota o la llegada de un bebé pueden estresar a tu compañero gatuno. Así que toma en cuenta cualquier cambio y procurá tranquilizar a tu gato ofreciéndole más atención y tranquilidad.</p>
+			        <img class="imagenModal" src="media/secciones-gato-1.png" alt="Gato maullando. ¿Por qué lo hace?" title="Gato maullando. ¿Por qué lo hace?" />
+			        <p>Entonces, si te preguntás "¿por qué mi gato maúlla mucho?", recordá que puede ser por cualquiera de las razones que mencionamos anteriormente, por lo que te recomendamos que lo observes y aprendas a reconocer sus maullidos para poder entenderlo mejor. Con amor y paciencia lo podrás lograr.</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn botonGris" data-bs-dismiss="modal">Cerrar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<!-- // Modales -->
+ 
+
+			<div class="indexPrincipio margin"> 
+				<div class="indexPrincipio__texto">
+					<h1 class="marginBottom">ADOPT<strong>AR</strong> <br />
+						Buenos Aires
+					</h1>
+						<p class="marginBottom">Ayudanos a crear un futuro en el que cada animal sea cuidado y querido. </p>
+						<p class="marginBottom"><strong>Mirá cuántos animales necesitan una familia.</strong></p>
+				</div>
+				<div class="indexPrincipio__foto">
+					<img src="media/index-img-perro-principal.png" alt="Perro" title="Perro" />
+				</div>	
+			</div>
+
+			<section class="margin cardsPrincipales"> 
+				<article class="cardPrincipal">
+					<a href="pages/adopta-perros.html">
+						<img class="cardPrincipal__imagen" src="media/index-img-card-adopta-perrito.png" alt="Adoptar un perrito" title="Adoptar un perrito" />
+					</a>
+				</article>
+				<article class="cardPrincipal">
+					<a href="pages/adopta-gatos.html">
+						<img class="cardPrincipal__imagen" src="media/index-img-card-adopta-gatito.png" alt="Adoptar un gatito" title="Adoptar un gatito" />
+					</a>
+				</article>
+				<article class="cardPrincipal">
+					<a href="pages/transita.html">
+						<img class="cardPrincipal__imagen" src="media/index-img-card-transita.png" alt="Transitá" title="Transitá" />
+					</a>
+				</article>
+			</section>
+					
+
+			<section class="margin">
+					
+				<h2 class="indexSecciones center overline">Finales Felices</h2>
+
+				<section class="indexCardsSecciones">
+
+					<article class="cardSecciones">
+						<img src="media/index-img-pancha.png" alt="Pancha, perra adoptada" title="Pancha, perra adoptada" class="cardSecciones__imagen" />
+						<p class="cardSecciones__titulo h4">Conocé a Pancha</p>
+						<p class="cardSecciones__texto">Pancha llegó con su nueva familia en abril del 2020. Le detectaron una infección de útero, pero lograron salvarla.</p>
+						<button type="button" class="btn botonRosa" data-bs-toggle="modal" data-bs-target="#exampleModal1">Conocela</button>
+					</article>
+
+					<article class="cardSecciones">
+						<img src="media/index-img-cano.png" alt="Cano, perro adoptado" title="Cano, perro adoptado" class="cardSecciones__imagen" />
+						<p class="cardSecciones__titulo h4">Conocé a Cano</p>
+						<p class="cardSecciones__texto">A Cano lo encontraron atrapado entre un montón de basura. Le costó muchísimo adaptarse a su familia, pero lo logró.</p>
+						<button type="button" class="btn botonRosa" data-bs-toggle="modal" data-bs-target="#exampleModal2">Conocelo</button>
+					</article>
+
+					<article class="cardSecciones">
+						<img src="media/index-img-plini.png" alt="Plini, gato adoptado" title="Plini, gato adoptado" class="cardSecciones__imagen" />
+						<p class="cardSecciones__titulo h4">Conocé a Plini</p>
+						<p class="cardSecciones__texto">A Plini lo salvaron cuando estaba a punto de cruzar una avenida llena de autos que venían súper fuerte.</p>
+						<button type="button" class="btn botonRosa" data-bs-toggle="modal" data-bs-target="#exampleModal3">Conocelo</button>
+					</article>
+					
+				</section>
+
+			</section>
+
+			<section class="margin">
+					
+				<h2 class="indexSecciones center overline">Blog</h2>
+
+				<section class="indexCardsSecciones">
+
+					<article class="cardSecciones">
+						<img src="media/index-img-perro-cabeza-pared.png" alt="Perro apoyando su cabeza contra la pared" title="Perro apoyando su cabeza contra la pared" class="cardSecciones__imagen" />
+						<p class="cardSecciones__titulo h4">¿Apoya su cabeza contra la pared?</p>
+						<p class="cardSecciones__texto">Esto <strong>no es normal</strong>. <br />
+						Y puede deberse a varios motivos.</p>
+						<button type="button" class="btn botonRosa" data-bs-toggle="modal" data-bs-target="#exampleModal4">Leé el artículo</button>
+					</article>
+
+					<article class="cardSecciones">
+						<img src="media/index-img-perro-temblar.png" alt="Temblores perro" title="Temblores perro" class="cardSecciones__imagen" />
+						<p class="cardSecciones__titulo h4">¿Por qué mi perro tiembla?</p>
+						<p class="cardSecciones__texto">Entre las causas más comunes se encuentran situaciones de ansiedad o agitación, temores o descenso de la temperatura corporal.</p>
+						<button type="button" class="btn botonRosa" data-bs-toggle="modal" data-bs-target="#exampleModal5">Leé el artículo</button>
+					</article>
+
+					<article class="cardSecciones">
+						<img src="media/index-img-gato-maulla.png" alt="Gato maullando" title="Gato maullando" class="cardSecciones__imagen" />
+						<p class="cardSecciones__titulo h4">¿Tu gato maúlla mucho?</p>
+						<p class="cardSecciones__texto">Conocé las principales razones por las que tu gato puede estar maullando demasiado.</p>
+						<button type="button" class="btn botonRosa" data-bs-toggle="modal" data-bs-target="#exampleModal6">Leé el artículo</button>
+					</article>
+					
+				</section>
+
+			</section>
+
+
+			<section class="botonDonar">
+				
+				<a href="#">DONÁ</a>
+
+			</section>
+
+		</main>
+
+		<footer class="footer">
+			
+			<section>
+
+				<ul class="footerNavegacion">
+
+					<li class="uppercase h5">Navegación</li>
+					<li>
+						<a class="footerNavegacion__link" href="index.html">Inicio</a>
+					</li>
+					<li>
+						<a class="footerNavegacion__link" href="pages/refugios.html">Refugios</a>
+					</li>
+					<li>
+						<a class="footerNavegacion__link" href="pages/adopta-perros.html">Adoptá un perrito</a>
+					</li>
+					<li>
+						<a class="footerNavegacion__link" href="pages/adopta-gatos.html">Adoptá un gatito</a>
+					</li>
+					<li>
+						<a class="footerNavegacion__link" href="pages/sobre-nosotros.html">Sobre Nosotros</a>
+					</li>
+					<li>
+						<a class="footerNavegacion__link" href="pages/contactanos.html">Contactanos</a>
+					</li>
+
+				</ul>
+
+			</section>
+
+			<section class="footerNewsletter">
+
+				<form>
+					
+					<p class="uppercase h5">Newsletter</p>
+					
+					<label class="colorGris">
+						Suscribite a nuestro newsletter!
+						<input type="text" name="newsletter" placeholder="Ingresa tu e-mail" />
+					</label>
+
+				</form>
+
+			</section>
+
+			<section>
+				
+				<p class="uppercase footerRedes h5">Seguinos</p>
+
+				<a href="#">
+					<img class="footerRedes__imagen" src="media/index-img-logo_instagram.png" alt="Logo Instagram" title="Logo Instagram"/>
+				</a>
+
+				<a href="#">
+					<img class="footerRedes__imagen" src="media/index-img-logo_facebook.png" alt="Logo Facebook" title="Logo Facebook"/>
+				</a>
+
+			</section>
+
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+	</body>
+
+
+</html>
