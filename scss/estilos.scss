@@ -363,6 +363,30 @@ $principal: texto, foto;
 	margin: 1%;
 }
 
+.seccionAdoptar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+@keyframes patitas {
+	0% {
+		top: 90%;
+	}
+
+	25% {
+		top: 60%;
+	}
+
+	50% {
+		top: 40%;
+	}
+
+	100% {
+		top: 10%;
+	}
+}
+
 /* -- ADOPTAR -- */
 
 /* -- SOBRE NOSOTROS -- */
@@ -502,6 +526,10 @@ $principal: texto, foto;
 		height: 140px;
 	}
 
+	.animacionAdoptar {
+		display: none;
+	}
+
 	.imagen-refugios-principal {
 		display: none;
 	}
@@ -636,6 +664,10 @@ $principal: texto, foto;
 		margin-bottom: 1%;
 	}
 
+	.animacionAdoptar {
+		display: none;
+	}
+
 	.imagen-refugios-principal {
 		display: none;
 	}
@@ -767,6 +799,10 @@ $principal: texto, foto;
 
 	.cardSecciones__texto {
 		height: 65px;
+	}
+
+	.animacionAdoptar {
+		display: none;
 	}
 
 	.imagen-refugios-principal {
@@ -907,6 +943,10 @@ $principal: texto, foto;
 
 	.cardSecciones__texto {
 		height: 175px;
+	}
+
+	.animacionAdoptar {
+		display: none;
 	}
 
 	.imagen-refugios-principal img {
@@ -1056,6 +1096,19 @@ $principal: texto, foto;
 
 	.cardSecciones:hover {
 		transform: scale(1.1);
+	}
+
+	.formularioAdoptar {
+		width: 80%;
+	}
+
+	.animacionAdoptar {
+		width: 20%;
+		animation: patitas 3s ease-in infinite alternate;
+	}
+
+	.animacionAdoptar img {
+		width: 100px;
 	}
 
 	.imagen-refugios-principal img {
