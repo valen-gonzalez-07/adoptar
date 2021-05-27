@@ -323,15 +323,11 @@ a {
   background-color: #F9F9F9;
   box-shadow: 0px 0px 10px 0px #DDDDDD;
   border-radius: 30px;
-  margin-top: 4%;
+  margin-top: 1%;
   margin-bottom: 3%; }
 
 .formularioContactanos {
   width: 100%; }
-
-.formularioContactanos__titulo {
-  margin-top: 2%;
-  margin-bottom: 4%; }
 
 /* -- CONTACTANOS -- */
 /* -- FOOTER -- */
