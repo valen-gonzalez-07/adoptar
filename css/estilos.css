@@ -59,7 +59,7 @@ a {
   margin-bottom: 2%; }
 
 .logo {
-  width: 13%; }
+  width: 30%; }
 
 .navbar {
   padding-right: 5%;
@@ -283,13 +283,13 @@ a {
 
 @keyframes patitas {
   0% {
-    top: 90%; }
+    margin-top: 90%; }
   25% {
-    top: 60%; }
+    margin-top: 60%; }
   50% {
-    top: 40%; }
+    margin-top: 40%; }
   100% {
-    top: 10%; } }
+    margin-top: 10%; } }
 
 /* -- ADOPTAR -- */
 /* -- SOBRE NOSOTROS -- */
@@ -678,6 +678,8 @@ a {
     margin-right: 3%; } }
 
 @media (min-width: 993px) {
+  .navbar {
+    width: 100%; }
   .buttomDonar a:hover {
     font-weight: 800;
     transform: scale(1.3); }

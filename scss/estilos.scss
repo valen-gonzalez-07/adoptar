@@ -86,7 +86,7 @@ a {
 }
 
 .logo {
-	width: 13%;
+	width: 30%;
 }
 
 .navbar {
@@ -371,19 +371,19 @@ $principal: texto, foto;
 
 @keyframes patitas {
 	0% {
-		top: 90%;
+		margin-top: 90%;
 	}
 
 	25% {
-		top: 60%;
+		margin-top: 60%;
 	}
 
 	50% {
-		top: 40%;
+		margin-top: 40%;
 	}
 
 	100% {
-		top: 10%;
+		margin-top: 10%;
 	}
 }
 
@@ -1043,6 +1043,10 @@ $principal: texto, foto;
 }
 
 @media (min-width: 993px) {
+
+	.navbar {
+		width: 100%;
+	}
 
 	.buttomDonar a:hover{
 		font-weight: 800;
