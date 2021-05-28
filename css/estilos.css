@@ -292,19 +292,7 @@ a {
   margin: 1%; }
 
 .seccionAdoptar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-@keyframes patitas {
-  0% {
-    margin-top: 90%; }
-  25% {
-    margin-top: 60%; }
-  50% {
-    margin-top: 40%; }
-  100% {
-    margin-top: 10%; } }
+  position: relative; }
 
 /* -- ADOPTAR -- */
 /* -- SOBRE NOSOTROS -- */
@@ -401,7 +389,7 @@ a {
     width: 60%; }
   .cardSecciones__texto {
     height: 140px; }
-  .animacionAdoptar {
+  .imagenAdoptar {
     display: none; }
   .imagen-refugios-principal {
     display: none; }
@@ -480,7 +468,7 @@ a {
     height: 100px;
     margin-top: 1%;
     margin-bottom: 1%; }
-  .animacionAdoptar {
+  .imagenAdoptar {
     display: none; }
   .imagen-refugios-principal {
     display: none; }
@@ -556,7 +544,7 @@ a {
     width: 40%; }
   .cardSecciones__texto {
     height: 65px; }
-  .animacionAdoptar {
+  .imagenAdoptar {
     display: none; }
   .imagen-refugios-principal {
     display: none; }
@@ -637,7 +625,7 @@ a {
     width: 75%; }
   .cardSecciones__texto {
     height: 175px; }
-  .animacionAdoptar {
+  .imagenAdoptar {
     display: none; }
   .imagen-refugios-principal img {
     width: 100%; }
@@ -730,12 +718,14 @@ a {
   .cardSecciones:hover {
     transform: scale(1.1); }
   .formularioAdoptar {
-    width: 80%; }
-  .animacionAdoptar {
-    width: 20%;
-    animation: patitas 3s ease-in infinite alternate; }
-  .animacionAdoptar img {
-    width: 100px; }
+    width: 60%; }
+  .imagenAdoptar {
+    width: 35%;
+    position: absolute;
+    top: 15%;
+    right: 1%; }
+  .imagenAdoptar img {
+    width: auto; }
   .imagen-refugios-principal img {
     width: 85%; }
   .cardRefugios {
