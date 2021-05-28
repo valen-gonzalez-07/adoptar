@@ -71,6 +71,10 @@ a {
 .container-fluid {
   padding: 0; }
 
+.form-control:focus {
+  border-color: #F9F9F9;
+  box-shadow: 0 0 0 0.25rem #F2F2F2; }
+
 .fondoGradiente {
   padding-bottom: 1%;
   padding-top: 0.5%;

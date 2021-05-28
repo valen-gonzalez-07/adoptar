@@ -101,6 +101,11 @@ a {
 	padding: 0;
 }
 
+.form-control:focus {
+	border-color: $grisMuyClaro;
+	box-shadow: 0 0 0 0.25rem $shadowClara;
+}
+
 .fondoGradiente {
 	padding-bottom: 1%;
 	padding-top: 0.5%;
