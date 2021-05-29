@@ -472,9 +472,8 @@ a {
   .cardSecciones__imagen {
     width: 50%; }
   .cardSecciones__texto {
-    height: 100px;
-    margin-top: 1%;
-    margin-bottom: 1%; }
+    height: 145px;
+    margin-top: 1%; }
   .imagenAdoptar {
     display: none; }
   .imagenTransitar {
