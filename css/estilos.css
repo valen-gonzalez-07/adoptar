@@ -228,10 +228,15 @@ a {
   margin-top: 2%;
   margin-bottom: 2%; }
 
+/* -- INDEX -- */
+/* -- TRANSITAR -- */
+.seccionTransitar {
+  position: relative; }
+
 .fraseTransitar {
   padding: 5%; }
 
-/* -- INDEX -- */
+/* -- TRANSITAR -- */
 /* -- REFUGIOS -- */
 .cardRefugios {
   border-radius: 20px;
@@ -723,9 +728,16 @@ a {
     width: 35%;
     position: absolute;
     top: 15%;
-    right: 1%; }
+    right: 0; }
   .imagenAdoptar img {
-    width: auto; }
+    width: 100%; }
+  .formularioTransitar {
+    width: 60%; }
+  .imagenTransitar {
+    width: 35%;
+    position: absolute;
+    top: 15%;
+    right: 0; }
   .imagen-refugios-principal img {
     width: 85%; }
   .cardRefugios {
@@ -776,7 +788,7 @@ a {
     margin: auto;
     margin-left: 10%; }
   .imagenContactanos img {
-    width: 100%; }
+    width: 90%; }
   footer .h5 {
     margin-top: 20px;
     margin-bottom: 10px; }
