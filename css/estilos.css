@@ -396,6 +396,8 @@ a {
     height: 140px; }
   .imagenAdoptar {
     display: none; }
+  .imagenTransitar {
+    display: none; }
   .imagen-refugios-principal {
     display: none; }
   .cardRefugios {
@@ -475,6 +477,8 @@ a {
     margin-bottom: 1%; }
   .imagenAdoptar {
     display: none; }
+  .imagenTransitar {
+    display: none; }
   .imagen-refugios-principal {
     display: none; }
   .cardRefugios {
@@ -550,6 +554,8 @@ a {
   .cardSecciones__texto {
     height: 65px; }
   .imagenAdoptar {
+    display: none; }
+  .imagenTransitar {
     display: none; }
   .imagen-refugios-principal {
     display: none; }
@@ -631,6 +637,8 @@ a {
   .cardSecciones__texto {
     height: 175px; }
   .imagenAdoptar {
+    display: none; }
+  .imagenTransitar {
     display: none; }
   .imagen-refugios-principal img {
     width: 100%; }
