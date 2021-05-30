@@ -389,11 +389,6 @@ $principal: texto, foto;
 	margin: 1%;
 }
 
-.seccionAdoptar {
-	position: relative;
-}
-
-
 /* -- ADOPTAR -- */
 
 /* -- SOBRE NOSOTROS -- */
@@ -1127,30 +1122,49 @@ $principal: texto, foto;
 		transform: scale(1.1);
 	}
 
-	.formularioAdoptar {
-		width: 60%;
+	.seccionTransitar {
+		display: flex;
+		flex-direction: row;
 	}
-
-	.imagenAdoptar{
-		width: 35%;
-	    position: absolute;
-	    top: 15%;
-	    right: 0;
-	}
-
-	.imagenAdoptar img {
-		width: 100%;
-	}
-
 	.formularioTransitar {
 		width: 60%;
 	}
 
 	.imagenTransitar {
-		width: 35%;
-	    position: absolute;
-	    top: 15%;
-	    right: 0;
+		margin-top: 30%;
+		margin-left: 10%;
+	}
+
+	.imagenTransitar img {
+		width: 100%;
+	}
+
+	.columnasTransitar {
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+	}
+
+	.columnaTransitar1 {
+		margin-right: 5%;
+	}
+
+	.seccionAdoptar {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.formularioAdoptar {
+		width: 60%;
+	}
+
+	.imagenAdoptar{
+		margin-top: 10%;
+		margin-left: 7%;
+	}
+
+	.imagenAdoptar img {
+		width: 100%;
 	}
 
 	.imagen-refugios-principal img {
